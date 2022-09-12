@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="timer">
+        <h1>mini timer</h1>
+        <div class="controls">
+            <div class="container">
+                <input id="duration" value="30">
+
+                <div class="btns">
+                    <button id="start">
+                        <img src="icons/icons8-play-100.png" alt="">
+                    </button>
+                    <button id="pause">
+                        <img src="icons/icons8-pause-100.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <svg>
+                <circle r="190" cx="0" cy="200" fill="transparent" stroke="#5ebb9c" stroke-width="10"
+                    stroke-dasharray="565" stroke-dashoffset="-150" transform="rotate(-90 100 100)"></circle>
+            </svg>
+        </div>
+    </div>
+
+
+    <script src="timer.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
